@@ -1,6 +1,6 @@
 body {
     display: flex;
-    position: relative;
+    position: absolute;
     width: 1440px;
     height: 1000px;
     background-color: #141b1c;
@@ -32,13 +32,9 @@ body {
     width: 25.01px;
     height: 147.08px;
     background-color: #dc3f45;
-    position: absolute;
     top: -38.41px;
-    right: 21.69px;
-    bottom: 658.91px;
     left: 332px;
     transform: rotate(-45deg);
-    
 }
 .Popular {
     position: absolute;
@@ -49,7 +45,6 @@ body {
     top: 67.31px;
     bottom: 28.79px;
     font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
@@ -104,11 +99,13 @@ h1 {
     left: 102px;
 }
 .subtitle {
-    font-family: 'Roboto' ; 
+    display: block;
+    font-family: 'Montserrat' ; 
     font-size: 20px;
     align-items: center;
+
 }
-.cost_1 {
+.cost-background_1 {
     position: absolute;
     width: 380px;
     height: 105px;
@@ -116,7 +113,7 @@ h1 {
     top: 130px;
     bottom: 535px;
 }
-.cost_2 {
+.cost-background_2 {
     position: absolute;
     width: 380px;
     height: 105px;
@@ -124,7 +121,7 @@ h1 {
     top: 130px;
     bottom: 535px;
 }
-.cost_3 {
+.cost-background_3 {
     position: absolute;
     width: 380px;
     height: 105px;
